@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.codevanced.hasty"
+    android:versionCode="6"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.blunderer.materialdesignlibrary.sample.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.blunderer.materialdesignlibrary.sample.cardviews.CardViewNormalActivity" />
+        <activity android:name="com.blunderer.materialdesignlibrary.sample.navigationdrawers.NavigationDrawerWithAccountsActivity" />
+        <activity android:name="com.blunderer.materialdesignlibrary.sample.viewpagers.ViewPagerActivity" />
+        <activity android:name="com.blunderer.materialdesignlibrary.sample.viewpagers.ViewPagerWithIndicatorActivity" />
+        <activity android:name="com.blunderer.materialdesignlibrary.sample.viewpagers.ViewPagerWithTabsActivity" />
+        <activity android:name="com.blunderer.materialdesignlibrary.sample.viewpagers.ViewPagerWithTabsExpandedActivity" />
+        <activity android:name="com.blunderer.materialdesignlibrary.sample.listviews.ListViewWithRefreshActivity" />
+        <activity android:name="com.blunderer.materialdesignlibrary.sample.listviews.ListViewActivity" />
+        <activity android:name="com.blunderer.materialdesignlibrary.sample.listviews.ListViewWithCustomLayoutActivity" />
+        <activity android:name="com.blunderer.materialdesignlibrary.sample.scrollviews.ScrollViewActivity" />
+        <activity android:name="com.blunderer.materialdesignlibrary.sample.scrollviews.ScrollViewWithRefreshActivity" />
+        <activity android:name="com.blunderer.materialdesignlibrary.sample.searchbar.SearchBarActivity" />
+        <activity android:name="com.blunderer.materialdesignlibrary.sample.searchbar.SearchBarAutoCompletionActivity" />
+    </application>
+
+</manifest>

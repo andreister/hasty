@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="@dimen/listview_row_height">
+
+    <View
+        android:id="@+id/activity_main_row_header_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/mdl_navigation_drawer_item_header_separator_color"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/activity_main_row_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/listview_row_header_padding_horizontal"
+        android:paddingRight="@dimen/listview_row_header_padding_horizontal"
+        android:paddingBottom="@dimen/listview_row_header_padding_vertical"
+        android:paddingTop="@dimen/listview_row_header_padding_vertical"
+        android:textSize="@dimen/listview_row_header_size"
+        android:textColor="?attr/colorPrimary"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/activity_main_row_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/listview_row_title_padding"
+        android:paddingRight="@dimen/listview_row_title_padding"
+        android:paddingBottom="3dp"
+        android:paddingTop="8dp"
+        android:textSize="@dimen/listview_row_title_size"
+        android:textStyle="bold"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/activity_main_row_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/listview_row_description_padding"
+        android:paddingRight="@dimen/listview_row_description_padding"
+        android:paddingBottom="8dp"
+        android:textSize="@dimen/listview_row_description_size"
+        android:visibility="gone"/>
+
+</LinearLayout>

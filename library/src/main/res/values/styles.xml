@@ -1,0 +1,27 @@
+<resources>
+
+    <style name="MaterialDesignLibraryTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/mdl_color_primary</item>
+        <item name="colorPrimaryDark">@color/mdl_color_primary_dark</item>
+    </style>
+
+    <style name="MaterialDesignLibraryTheme.Light" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/mdl_color_primary</item>
+        <item name="colorPrimaryDark">@color/mdl_color_primary_dark</item>
+    </style>
+
+    <style name="MaterialDesignLibraryTheme.NavigationDrawer.ItemsTextStyle" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textSize">@dimen/mdl_navigation_drawer_row_title_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/mdl_navigation_drawer_item_title_color</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="MaterialDesignLibraryTheme.NavigationDrawer.SectionsTextStyle" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textSize">@dimen/mdl_navigation_drawer_row_title_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/mdl_navigation_drawer_item_header_color</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+</resources>

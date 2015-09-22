@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/cardview_margin_horizontal">
+
+        <com.blunderer.materialdesignlibrary.views.CardView
+            android:id="@+id/cardview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:mdl_title="#1234"
+            app:mdl_description="Welfare for Tottenham Court Road"
+            app:mdl_normalButton="View"
+            app:mdl_highlightButton="Accept"
+            app:mdl_imagePosition="none"/>
+
+        <com.blunderer.materialdesignlibrary.views.CardView
+            android:id="@+id/cardview2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:mdl_title="#5678"
+            app:mdl_description="Neutral fault in Mr.Smith house"
+            app:mdl_normalButton="View"
+            app:mdl_highlightButton="Accept"
+            app:mdl_imagePosition="none"/>
+
+        <com.blunderer.materialdesignlibrary.views.CardView
+            android:id="@+id/cardview3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:mdl_title="#9023"
+            app:mdl_description="Well this is a rather long description but notice it's still fully visible, not sure we would need such long ones but anyway!!"
+            app:mdl_normalButton="View"
+            app:mdl_highlightButton="Accept"
+            app:mdl_imagePosition="none"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- TextView -->
+    <dimen name="textview_size">18sp</dimen>
+
+    <!-- ListView -->
+    <dimen name="listview_row_height">64dp</dimen>
+    <dimen name="listview_row_header_padding_vertical">24dp</dimen>
+    <dimen name="listview_row_header_padding_horizontal">64dp</dimen>
+    <dimen name="listview_row_header_size">24sp</dimen>
+    <dimen name="listview_row_title_padding">64dp</dimen>
+    <dimen name="listview_row_title_size">18sp</dimen>
+    <dimen name="listview_row_description_padding">64dp</dimen>
+    <dimen name="listview_row_description_size">17sp</dimen>
+
+    <!-- ScrollView -->
+    <dimen name="scrollview_padding">64dp</dimen>
+
+    <!-- CardView -->
+    <dimen name="cardview_margin_horizontal">64dp</dimen>
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Work/Studying/android/material-design-library/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values-sw600dp/values-sw600dp.xml -->
+    <eat-comment/>
+    <dimen name="abc_action_bar_content_inset_material">24dp</dimen>
+    <dimen name="abc_action_bar_default_height_material">64dp</dimen>
+    <dimen name="abc_action_bar_default_padding_material">4dp</dimen>
+    <dimen name="abc_action_bar_navigation_padding_start_material">8dp</dimen>
+    <dimen name="abc_action_bar_overflow_padding_end_material">18dp</dimen>
+    <dimen name="abc_config_prefDialogWidth">580dp</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
+    <!-- From: file:/C:/Work/Studying/android/material-design-library/library/build/intermediates/bundles/debug/res/values-sw600dp/values-sw600dp.xml -->
+    <eat-comment/>
+    <dimen name="mdl_cardview_button_size">15sp</dimen>
+    <dimen name="mdl_cardview_description_size">17sp</dimen>
+    <dimen name="mdl_cardview_title_size">25sp</dimen>
+    <dimen name="mdl_navigation_drawer_row_header_size">15sp</dimen>
+    <dimen name="mdl_navigation_drawer_row_height">52dp</dimen>
+    <dimen name="mdl_navigation_drawer_row_icon_size">30dp</dimen>
+    <dimen name="mdl_navigation_drawer_row_padding">20dp</dimen>
+    <dimen name="mdl_navigation_drawer_row_title_size">15sp</dimen>
+    <dimen name="mdl_navigation_drawer_width">320dp</dimen>
+    <dimen name="mdl_navigationdrawer_accounts_arrow_size">28dp</dimen>
+    <dimen name="mdl_navigationdrawer_accounts_current_account_size">78dp</dimen>
+    <dimen name="mdl_navigationdrawer_accounts_data_height">63dp</dimen>
+    <dimen name="mdl_navigationdrawer_accounts_description_size">16sp</dimen>
+    <dimen name="mdl_navigationdrawer_accounts_height">170dp</dimen>
+    <dimen name="mdl_navigationdrawer_accounts_other_account_size">50dp</dimen>
+    <dimen name="mdl_navigationdrawer_accounts_second_account_padding_right">66dp</dimen>
+    <dimen name="mdl_navigationdrawer_accounts_small_account_size">42dp</dimen>
+    <dimen name="mdl_navigationdrawer_accounts_small_height">74dp</dimen>
+    <dimen name="mdl_navigationdrawer_accounts_title_size">16sp</dimen>
+    <dimen name="mdl_viewpager_with_tabs_height">56dip</dimen>
+    <!-- From: file:/C:/Work/Studying/android/material-design-library/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values-sw600dp/values-sw600dp.xml -->
+    <eat-comment/>
+    <integer name="abc_max_action_buttons">5</integer>
+</resources>

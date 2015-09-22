@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Work\Studying\android\material-design-library\sample\build\intermediates\exploded-aar\material-design-library\library\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="cb40d4bf0573640fa9f70067e524b3bc1436ceb9">
+        <dex dex="C:\Work\Studying\android\material-design-library\sample\build\intermediates\pre-dexed\debug\classes-3f1ca97f760b817e4cba9f3ad1ed263847ac98a3.jar" />
+    </item>
+
+</items>

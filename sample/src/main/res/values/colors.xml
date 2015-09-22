@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#436d33</color>
+    <color name="color_primary_dark">#072a05</color>
+    <color name="activity_main_row_title_color">#cccccc</color>
+
+    <color name="cyan">#00FFFF</color>
+    <color name="gray">#bdbdbd</color>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <gradient
+        android:angle="90"
+        android:endColor="#88939393"
+        android:startColor="@android:color/transparent"/>
+
+</shape><!-- From: file:/C:/Work/Studying/android/material-design-library/library/src/main/res/drawable/toolbar_shadow.xml --><!-- From: file:/C:/Work/Studying/android/material-design-library/sample/build/intermediates/exploded-aar/material-design-library/library/unspecified/res/drawable/toolbar_shadow.xml -->
